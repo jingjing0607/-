@@ -1,0 +1,16 @@
+{
+  "id": "1883166",
+  "name": "恒大集团",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4942663",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    }
+  ]
+}
