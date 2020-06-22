@@ -18,7 +18,7 @@
                     <li class="nav-item">
                         <a href="" class="shouye">首页</a>
                         <div class="sanjiao">
-                            <img src="/image/三角形.png" />
+                            <img src="image/三角形.png" />
                         </div>
                     </li>
                     <li class="nav-item">
@@ -51,7 +51,7 @@
                                         <a href="" class="name">集团荣誉</a>
                                     </li>
                             </ul>
-                            <b class="tubiao"><img src="/image/三角形.png" /></b>
+                            <b class="tubiao"><img src="image/三角形.png" /></b>
                         </div>    
                     </li>
                     <li class="nav-item">
@@ -75,7 +75,7 @@
                                     <a href="" class="news-a">其他</a>
                                 </li>
                             </ul>
-                            <b class="tubiao"><img src="/image/三角形.png" /></b>
+                            <b class="tubiao"><img src="image/三角形.png" /></b>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -104,25 +104,26 @@
         </div>
     </div>
     <!-- 轮播图 -->
-    <div class="banner">
-        <div class="banner-inner clearfix" id="banner-inner" style="left:-1920px;">
-            <img src="/image/banner3.png" class="inner-img"/> <!--辅助过渡图 -->
-            <img src="/image/banner1.png" class="inner-img"/>
-            <img src="/image/banner2.png" class="inner-img"/>
-            <img src="/image/banner3.png" class="inner-img"/>
-            <img src="/image/banner1.png" class="inner-img"/> <!--辅助过渡图 -->
+    <div class="banner" id="banner">
+        <div class="banner-inner clearfix" id="banner_inner">
+            <img src="image/banner3.png" class="inner-img"/> <!--辅助过渡图 -->
+            <img src="image/banner1.png" class="inner-img"/>
+            <img src="image/banner2.png" class="inner-img"/>
+            <img src="image/banner3.png" class="inner-img"/>
+            <img src="image/banner1.png" class="inner-img"/> <!--辅助过渡图 -->
         </div>
         <div class="banner-btns">
-            <ul class="btns-box">
-                <li class="banner-btn active" data-index="0"></li>
-                <li class="banner-btn" data-index="1"></li>
-                <li class="banner-btn" data-index="2"></li>
+            <ul class="btns-box" id="btns_box">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
             </ul>
         </div>
-        <a href="#" class="banner-arrow iconfont1" id="arrow-left">&#xe622;</a>
-        <a href="#" class="banner-arrow iconfont1" id="arrow-right">&#xe624;</a>
+        <a href="#" class="banner-arrow iconfont1" id="left">&#xe622;</a>
+        <a href="#" class="banner-arrow iconfont1" id="right">&#xe624;</a>
     </div>
 </div>
+<script src="js/animate.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>

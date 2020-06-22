@@ -207,6 +207,7 @@ a{
     z-index: -1;
     width: 9600px;
     height: 600px;
+    left: -1920px
 }
 .inner-img{
     float: left;
@@ -222,11 +223,12 @@ a{
 }
 .banner-btns .btns-box{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color:none;
     border-radius: 7px;
     font-size: 0;
+    padding-right: 35px;
 }
-.banner-btns .btns-box .banner-btn{
+.banner-btns .btns-box>li{
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -235,11 +237,11 @@ a{
     cursor: pointer;
     margin: 15px;
 }
-.active{
-    background-color: #D6000F;
+.banner-btns .btns-box .active{
+    background: #D6000F;
 }
 /* 左右箭头 */
-.banner-arrow{
+.banner>a{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -252,10 +254,12 @@ a{
     font-weight: bold;
     line-height: 50px;
     text-decoration: none;
+    opacity: 0;
 }
-#arrow-left{
+
+#left{
     left: 15px;
 }
-#arrow-right{
+#right{
     right: 15px;
 }
